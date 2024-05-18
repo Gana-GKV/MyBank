@@ -1,0 +1,49 @@
+
+ts : Component
+html : View
+
+Data binding
+.............
+
+One way binding
+1 : Component to View
+    String Interpollation => {{variablename}}
+    Property Binding => [Propertyname]="variablename"
+                        [placeholder]="pdata"
+2 : View to Component
+    Event Binding => (eventname)="methodname()"
+    $Event Binding => (eventname)="methodname($event)" -- onchange  //must use $event
+    Event Binding with template rendering variable => (event)="methodname(templateRenderingVariable)"
+                use as #variable like id -- get value of that input
+
+Two way Data Binding
+
+ngModel - FormsModule
+
+
+
+Dependancy Injection 
+----------------------------------
+Used to access data and methods of a class into another class
+Inside the Constructor method
+Access Specifier : private/public
+
+    constructor(private/public reference:classname)
+
+balance check
+prof View
+money tranfer
+ac stmt
+dlt ac
+logout
+
+
+
+
+Life Cycle Blocks of Angular
+------------------------------
+Constructor --> ngOnInit --> Other Methods
+
+Angular Services
+
+used to keep data and methods that can access by any Component in tha t FormsModule

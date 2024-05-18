@@ -1,0 +1,30 @@
+<div class="row">
+    <div class="col-6">
+        <div class=" container w-75 bg-info-subtle rounded-5 p-4 mb-4" style="margin-top: 110px;">
+            <form action="">
+                <h3 class="text-center text-white pt-4">Register</h3>
+                <div class="p-2">
+                    <input [(ngModel)]="acno" class="form-control" type="text" name="ano" id="a1" placeholder="Account Number">
+                </div>
+                <div class="p-2">
+                    <input [(ngModel)]="uname" class="form-control" type="text" name="uname" id="u1" placeholder="Username">
+                </div>
+                <div class="p-2">
+                    <input [(ngModel)]="pass" class="form-control" type="password" name="psw" id="p1" placeholder="Password">
+                </div>
+                <div class="p-2">
+                    <input [(ngModel)]="cpass" class="form-control" type="password" name="cpsw" id="cp1" placeholder="Confirm Password">
+                </div>
+                <div class="p-2">
+                    <button (click)="register()" class="form-control btn btn-primary">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-6">
+        <img src="https://i.postimg.cc/PqhYSpCh/illustration-vector-graphic-cartoon-character-online-registration-516790-1807.avif"
+            alt="">
+    </div>
+
+</div>
+<!-- acno username pass cpass btn -->
